@@ -58,9 +58,9 @@ read i
 	;;
 		3)
 			echo "Processo do web server: " ; echo "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-" ; ps aux | egrep "*php"
-			echo "Qual o PID do processo? :"
+			echo "Qual o PID do processo?:"
 			read pid_process
-			kill $pid_proces
+			kill $pid_process
 	;;
 		4)
 			echo "" > sua-senha.txt
